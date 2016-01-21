@@ -1,0 +1,16 @@
+{
+  "name": "sse-express",
+  "description": "SSE handling for Express",
+  "version": "1.0.0",
+  "author": {
+    "name": "Wen Chang",
+    "email": "wchang28@hotmail.com"
+  },
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wchang28/sse-express.git"
+  }
+}
