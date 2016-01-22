@@ -2,8 +2,6 @@ module.exports = function(onInitEventStreaming, onStreamingClose) {
 	return (function(req, res) {
 		// init SSE
 		///////////////////////////////////////////////////////////////////////
-		// let request last as long as possible
-		req.socket.setTimeout(Infinity);
 		//send headers for event-stream connection
 		res.writeHead(200, {
 			'Content-Type': 'text/event-stream',
